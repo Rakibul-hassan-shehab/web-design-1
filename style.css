@@ -71,13 +71,86 @@ header .navbar a{
     display: flex;
 }
 .main_image{
+    width: 33%;
     margin: 20px;
     padding: 10px;
     background: #ffffff;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .main_image h3{
     text-decoration: none;
 }
+i{
+    color: #e7c117;
+}
 .main_image img{
+    width: 100%;
+}
+.img5 img{
+    width: 90%;
+}
+.main_footer{
+    margin: 150px;
+}
+.main_footer{
+    padding-bottom: 20px;
+}
+.main_footer img{
+    width: 250px;
+    height: 150px;
+    outline: 4px solid blue;
+    border-radius: 2px;
+    float: left;
+    margin: 50px 50px 0px 50px;
+}
+div .footer_text{
+    padding-top: 50px;
+}
+
+.footer_text p{
+    margin-bottom: 25px;
+    text-align: left;
+}
+.footer_text a{
+    text-decoration: none;
+    background-color: rgb(165, 17, 17);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    
+}
+.na_bar{
+    background-color: #000;
+    color: #ffffff;
+    height: 100px;
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+}
+.footer_logo{
+ 
+}
+.fa-instagram{
+    padding: 10px;
+}
+.fa-twitter{
+    padding: 10px;
+}
+.fa-youtube{
+    padding: 10px;
+}
+.fa-arrow-right{
+    padding-left: 10px;
+}
+
+/* =====================
+responsive css for phone
+=========================  */
+
+@media only screen and (max-width: 380px) {
+    body{
+        background: #E02C6D;
+        margin: 2px;
+        padding: 2px;
+    }
+
 }
