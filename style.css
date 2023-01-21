@@ -4,6 +4,12 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+#mobile{
+    display: none;
+    color: #48b815;
+
+}
 body{
     padding: 20px;
     overflow-x: hidden;
@@ -54,6 +60,7 @@ header .navbar a{
 .header_text{
 }
 .main_camera{
+
 }
 
 .popular{
@@ -148,9 +155,98 @@ responsive css for phone
 
 @media only screen and (max-width: 380px) {
     body{
-        background: #E02C6D;
         margin: 2px;
         padding: 2px;
     }
+    #mobile{
+        display:contents;
+    }
+    header .navbar .fa-bars{
+        margin-left: 0;
+        padding-left: 10px;
+        color: #000000;
+        font-size: 20px;
+    }
+    header .navbar .fa-cart-shopping{
+        margin-right: 0;
+        color: #000000;
+        font-size: 20px;
+
+    }
+
+    header .navbar ul{
+        display: none;
+    }
+    header .navbar a{
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 20px;
+    }
+    header .navbar a span{
+        color: #E02C6D;
+    }
+    .main_camera{
+        float: left;
+    }
+
+
+
+
+
+    main .popular{
+        margin-bottom: 0;
+        color: #614f00;
+    }
+    main .logo img{
+        margin-right: 0;
+        margin-left: 0;
+        padding: 10px;
+        width: 65px;
+    }
+
+    main .all_product{
+        display: grid;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #ffffff;
+
+    }
+    main .all_product .main_image{
+        width: 100%;
+        margin-left: 0;
+        background: #c6baba;
+        margin-right: 0;
+
+    }
+
+
+
+    footer .main_footer{
+        display: grid;
+    }
+    footer .main_footer img{
+        margin-left: -100px;
+        margin-top: -120px;
+        width: 350px;
+        height: auto;
+    }
+footer .main_footer .footer_text{
+    margin: 0;
+    margin-left: -120px;
+    color: #48b815;
+
+}
+footer .main_footer .footer_text a{
+    border-radius: 8px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+
+
+    
+
 
 }
